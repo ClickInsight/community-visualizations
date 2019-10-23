@@ -1,0 +1,213 @@
+{
+  "data": [
+    {
+      "id": "dimension",
+      "label": "Dimensions",
+      "elements": [
+        {
+          "id": "breakdown",
+          "label": "Breakdown Dimension",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "metric",
+      "label": "Metrics",
+      "elements": [
+        {
+          "id": "value",
+          "label": "Value",
+          "type": "METRIC",
+          "options": {
+            "min": 3,
+            "max": 6
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "chartOptions",
+      "label": "Chart Options",
+      "elements": [
+        {
+          "type": "INTERVAL",
+          "id": "width",
+          "label": "Line Width",
+          "defaultValue": "3"
+        },
+        {
+          "type": "CHECKBOX",
+          "id": "fill",
+          "label": "Fill Area",
+          "defaultValue": "true"
+        },
+        {
+          "type": "OPACITY",
+          "id": "opacity",
+          "label": "Fill Opacity",
+          "defaultValue": "0.1"
+        }
+      ]
+    },
+    {
+      "id": "axisOptions",
+      "label": "Axis Options",
+      "elements": [
+        {
+          "type": "TEXTINPUT",
+          "id": "ymin",
+          "label": "Minimum"
+        },
+        {
+          "type": "TEXTINPUT",
+          "id": "ymax",
+          "label": "Maximum"
+        },
+        {
+          "type": "INTERVAL",
+          "id": "yticks",
+          "label": "Maximum Number of Ticks"
+        },
+        {
+          "type": "CHECKBOX",
+          "id": "ylabels",
+          "label": "Hide Tick Labels",
+          "defaultValue": "false"
+        },
+        {
+          "type": "CHECKBOX",
+          "id": "pointLabels",
+          "label": "Hide Axis Labels",
+          "defaultValue": "false"
+        },
+        {
+          "type": "CHECKBOX",
+          "id": "ylines",
+          "label": "Hide Axis Lines",
+          "defaultValue": "false"
+        },
+        {
+          "type": "CHECKBOX",
+          "id": "gridlines",
+          "label": "Hide Gridlines",
+          "defaultValue": "false"
+        },
+        {
+          "type": "CHECKBOX",
+          "id": "circular",
+          "label": "Show Circular Gridlines",
+          "defaultValue": "false"
+        }
+      ]
+    },
+    {
+      "id": "tooltipOptions",
+      "label": "Tooltip Options",
+      "elements": [
+        {
+          "type": "CHECKBOX",
+          "id": "tooltips",
+          "label": "Hide Tooltips",
+          "defaultValue": "false"
+        }
+      ]
+    },
+    {
+      "id": "legendOptions",
+      "label": "Legend Options",
+      "elements": [
+        {
+          "type": "CHECKBOX",
+          "id": "legend",
+          "label": "Hide Legend",
+          "defaultValue": "false"
+        },
+        {
+          "type": "SELECT_SINGLE",
+          "id": "legendPosition",
+          "label": "Legend Position",
+          "defaultValue": "top",
+          "options": [{
+            "label": "Top",
+            "value": "top"
+          },
+          {
+            "label": "Right",
+            "value": "right"
+          },
+          {
+            "label": "Bottom",
+            "value": "bottom"
+          },
+          {
+            "label": "Left",
+            "value": "left"
+          }]
+        }
+      ]
+    },
+    {
+      "id": "colorOptions",
+      "label": "Colour Palette",
+      "elements": [
+        {
+          "type": "FILL_COLOR",
+          "id": "color1",
+          "label": "Line 1 Colour"
+        },
+        {
+          "type": "FILL_COLOR",
+          "id": "color2",
+          "label": "Line 2 Colour"
+        },
+        {
+          "type": "FILL_COLOR",
+          "id": "color3",
+          "label": "Line 3 Colour"
+        },
+        {
+          "type": "FILL_COLOR",
+          "id": "color4",
+          "label": "Line 4 Colour"
+        },
+        {
+          "type": "FILL_COLOR",
+          "id": "color5",
+          "label": "Line 5 Colour"
+        },
+        {
+          "type": "FILL_COLOR",
+          "id": "color6",
+          "label": "Line 6 Colour"
+        },
+        {
+          "type": "FILL_COLOR",
+          "id": "color7",
+          "label": "Line 7 Colour"
+        },
+        {
+          "type": "FILL_COLOR",
+          "id": "color8",
+          "label": "Line 8 Colour"
+        },
+        {
+          "type": "FILL_COLOR",
+          "id": "color9",
+          "label": "Line 9 Colour"
+        },
+        {
+          "type": "FILL_COLOR",
+          "id": "color10",
+          "label": "Line 10 Colour"
+        }
+      ]
+    }
+  ]
+}
