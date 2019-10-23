@@ -3,12 +3,14 @@
 This repository contains [community visualizations][community viz] for [Google Data Studio][datastudio] built with [Chart.js][chartjs]. More details on each chart are available at the links below.
 
 ## Radar Chart
-![Chartjs_radar](./radar/radar.png | width=100)
+
+<img src="./radar/radar.png" width="300" />
 
 [View more info][radar]
 
-## Radar Chart
-![Chartjs_line](./line/line.png | width=100)
+## Line Chart
+
+<img src="./line/line.png" width="300" />
 
 [View more info][line]
 
