@@ -5,7 +5,7 @@ JavaScript visualizations for [Google Data Studio][datastudio].
 
 ![Chartjs_radar](./radar.png)
 
-This [radar chart] community visualization built with [Chart.js][chartjs] takes 1 dimension and up to 6 metrics. It works best with metrics of the same scale and range.
+This [radar chart] community visualization built with [Chart.js][chartjs] takes 1 dimension and up to 20 metrics. It works best with metrics of the same scale and range.
 
 ## Deployed version
 
